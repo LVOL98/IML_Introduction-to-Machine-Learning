@@ -4,5 +4,14 @@
 			"path": ".",
 		}
 	],
-	"settings": {}
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"ms-toolsai.jupyter",
+			"ms-python.python",
+			"github.copilot",
+			"github.copilot-labs",
+			"github.copilot-chat"
+		]
+	}
 }
