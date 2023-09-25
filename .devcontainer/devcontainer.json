@@ -6,7 +6,22 @@
 		"ghcr.io/wxw-matt/devcontainer-features/command_runner:0": {},
 		"ghcr.io/wxw-matt/devcontainer-features/script_runner:0": {}
 	},
-	"runArgs": [
-		"--name=itu-iml"
-	]
+	"remoteUser": "root",
+	"containerUser": "root",
+	// "runArgs": [
+	// 	"--name=itu-iml"
+	// ],
+	// "postCreateCommand": "conda init bash && bash -i ./setup/conda_py3_10_imlEnv.sh && conda env create -f ./setup/iml_env.yml",
+	// "postStartCommand": "conda activate iml",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"GitHub.copilot-labs",
+				"ms-toolsai.jupyter",
+				"ms-python.python"
+			]
+		}
+	}
 }

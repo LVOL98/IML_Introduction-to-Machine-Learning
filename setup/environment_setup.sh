@@ -1,1 +1,0 @@
-# IMPORTANT! Run the script from the setup folder, as the iaml_env.yml file is needed
