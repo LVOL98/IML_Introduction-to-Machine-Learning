@@ -4,7 +4,14 @@
 			"path": ".",
 		}
 	],
-	"settings": {},
+	"settings": {
+		"grammarly.selectors": [
+			{
+				"language": "markdown",
+				"scheme": "vscode-notebook-cell"
+			}
+		]
+	},
 	"extensions": {
 		"recommendations": [
 			"github.copilot",
